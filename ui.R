@@ -8,6 +8,6 @@ shinyUI(pageWithSidebar(
                  min = 1, max = 9)
   ),
   mainPanel(
-    plotOutput('plot1', height=600)
+    plotOutput('plot1')
   )
 ))
